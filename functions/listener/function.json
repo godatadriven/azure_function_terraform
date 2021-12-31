@@ -1,0 +1,12 @@
+{
+    "bindings": [
+      {
+        "type": "eventHubTrigger",
+        "name": "event",
+        "direction": "in",
+        "eventHubName": "events",
+        "connection": "EventHub_AccessKey"
+      }
+    ],
+    "disabled": false
+}
